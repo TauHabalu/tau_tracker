@@ -8,6 +8,7 @@ class TauTracker extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: "Crypto Tracker",
       theme: ThemeData(
         primarySwatch: Colors.yellow
